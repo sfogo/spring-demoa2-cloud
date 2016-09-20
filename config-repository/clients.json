@@ -1,0 +1,38 @@
+[
+  {
+    "client_number": 1,
+    "client_id": "client1",
+    "client_secret": "P@55w0rd1",
+    "scope": ["A", "B", "C"],
+    "resource_ids": ["r1"],
+    "authorized_grant_types": ["authorization_code", "refresh_token", "password"],
+    "authorities": ["ROLE_CLIENT"]
+  },
+  {
+    "client_number": 2,
+    "client_id": "client2",
+    "client_secret": "P@55w0rd2",
+    "scope": ["A", "B", "C"],
+    "resource_ids": ["r1", "r2"],
+    "authorized_grant_types": ["authorization_code", "refresh_token", "password"],
+    "authorities": ["ROLE_CLIENT"]
+  },
+  {
+    "client_number": 3,
+    "client_id": "client3",
+    "client_secret": "P@55w0rd3",
+    "scope": ["A", "B", "C"],
+    "resource_ids": ["r1", "r2", "r3"],
+    "authorized_grant_types": ["authorization_code", "refresh_token", "password"],
+    "authorities": ["ROLE_CLIENT"]
+  },
+  {
+    "client_number": 0,
+    "client_id": "client0",
+    "client_secret": "P@55w0rd0",
+    "scope": ["A", "B", "C"],
+    "resource_ids": ["r0", "r1", "r2", "r3"],
+    "authorized_grant_types": ["authorization_code", "refresh_token", "password"],
+    "authorities": ["ADMIN_APP"]
+  }
+]
