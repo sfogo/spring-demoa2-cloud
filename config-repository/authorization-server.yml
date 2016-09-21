@@ -16,3 +16,9 @@ server:
     port-header: x-forwarded-port
     remote_ip_header: x-forwarded-for
     protocol_header: x-forwarded-proto
+
+demo:
+  admin:
+    client:
+      id: client0
+
