@@ -4,7 +4,7 @@
     "client_id": "client1",
     "client_secret": "P@55w0rd1",
     "scope": ["A", "B", "C"],
-    "resource_ids": ["r1"],
+    "resource_ids": ["demoa2", "r1"],
     "authorized_grant_types": ["authorization_code", "refresh_token", "password"],
     "authorities": ["ROLE_CLIENT"]
   },
@@ -13,7 +13,7 @@
     "client_id": "client2",
     "client_secret": "P@55w0rd2",
     "scope": ["A", "B", "C"],
-    "resource_ids": ["r1", "r2"],
+    "resource_ids": ["demoa2", "r1", "r2"],
     "authorized_grant_types": ["authorization_code", "refresh_token", "password"],
     "authorities": ["ROLE_CLIENT"]
   },
@@ -22,7 +22,7 @@
     "client_id": "client3",
     "client_secret": "P@55w0rd3",
     "scope": ["A", "B", "C"],
-    "resource_ids": ["r1", "r2", "r3"],
+    "resource_ids": ["demoa2", "r1", "r2", "r3"],
     "authorized_grant_types": ["authorization_code", "refresh_token", "password"],
     "authorities": ["ROLE_CLIENT"]
   },
@@ -31,7 +31,7 @@
     "client_id": "client0",
     "client_secret": "P@55w0rd0",
     "scope": ["ADMIN_READ", "ADMIN_WRITE"],
-    "resource_ids": ["r0", "r1", "r2", "r3"],
+    "resource_ids": ["demoa2", "r0", "r1", "r2", "r3"],
     "authorized_grant_types": ["authorization_code", "refresh_token", "password"],
     "authorities": ["ROLE_ADMIN_APP"]
   }
