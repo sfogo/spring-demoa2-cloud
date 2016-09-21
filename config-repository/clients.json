@@ -30,7 +30,7 @@
     "client_number": 0,
     "client_id": "client0",
     "client_secret": "P@55w0rd0",
-    "scope": ["A", "B", "C"],
+    "scope": ["ADMIN_READ", "ADMIN_WRITE"],
     "resource_ids": ["r0", "r1", "r2", "r3"],
     "authorized_grant_types": ["authorization_code", "refresh_token", "password"],
     "authorities": ["ROLE_ADMIN_APP"]
