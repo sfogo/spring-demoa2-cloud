@@ -1,0 +1,17 @@
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG
+        security: DEBUG
+
+server:
+  error:
+    whitelabel:
+      enabled: false
+
+  use-forward-headers: true
+  tomcat:
+    port-header: x-forwarded-port
+    remote_ip_header: x-forwarded-for
+    protocol_header: x-forwarded-proto
