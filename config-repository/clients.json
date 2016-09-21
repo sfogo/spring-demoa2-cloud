@@ -33,6 +33,6 @@
     "scope": ["A", "B", "C"],
     "resource_ids": ["r0", "r1", "r2", "r3"],
     "authorized_grant_types": ["authorization_code", "refresh_token", "password"],
-    "authorities": ["ADMIN_APP"]
+    "authorities": ["ROLE_ADMIN_APP"]
   }
 ]
