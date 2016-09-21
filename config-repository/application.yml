@@ -1,3 +1,7 @@
 info:
   description: Spring OAuth2 and Spring Cloud demo
   url: https://github.com/sfogo/spring-demoa2-cloud
+
+management:
+  context-path: /actuate
+
