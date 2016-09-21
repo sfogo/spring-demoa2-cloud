@@ -21,4 +21,7 @@ demo:
   admin:
     client:
       id: client0
+  super:
+    user:
+      id: root
 
