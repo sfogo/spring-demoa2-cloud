@@ -1,0 +1,66 @@
+[
+  {
+    "username": "user1",
+    "password": "password1",
+    "authorities": [{"authority": "ROLE_USER"}],
+    "accountNonExpired": true,
+    "accountNonLocked": true,
+    "credentialsNonExpired": true,
+    "enabled": true
+  },
+  {
+    "username": "user2",
+    "password": "password2",
+    "authorities": [{"authority": "ROLE_USER"}],
+    "accountNonExpired": true,
+    "accountNonLocked": true,
+    "credentialsNonExpired": true,
+    "enabled": true
+  },
+  {
+    "username": "user3",
+    "password": "password3",
+    "authorities": [{"authority": "ROLE_USER"}],
+    "accountNonExpired": true,
+    "accountNonLocked": true,
+    "credentialsNonExpired": true,
+    "enabled": true
+  },
+  {
+    "username": "user4",
+    "password": "password4",
+    "authorities": [{"authority": "ROLE_USER"}],
+    "accountNonExpired": true,
+    "accountNonLocked": true,
+    "credentialsNonExpired": true,
+    "enabled": true
+  },
+  {
+    "username": "user5",
+    "password": "password5",
+    "authorities": [{"authority": "ROLE_USER"}],
+    "accountNonExpired": true,
+    "accountNonLocked": true,
+    "credentialsNonExpired": true,
+    "enabled": true
+  },
+  {
+    "username": "admin",
+    "password": "admin",
+    "authorities": [{"authority": "ROLE_ADMIN"}],
+    "accountNonExpired": true,
+    "accountNonLocked": true,
+    "credentialsNonExpired": true,
+    "enabled": true
+  },
+  {
+    "username": "root",
+    "password": "P@55w0rd",
+    "authorities": [{"authority": "ROLE_ADMIN"}],
+    "accountNonExpired": true,
+    "accountNonLocked": true,
+    "credentialsNonExpired": true,
+    "enabled": true
+  },
+]
+
