@@ -19,14 +19,24 @@ server:
 
 ---
 spring:
+  profiles: r1
+  oauth2.resource.id: r1
+---
+spring:
+  profiles: r2
+  oauth2.resource.id: r2
+---
+spring:
+  profiles: r3
+  oauth2.resource.id: r3
+---
+spring:
   profiles: dev
   oauth2:
     resource:
       userInfoUri: http://localhost:8090/user
       tokenInfoUri: http://localhost:8090/oauth/check_token
       preferTokenInfo: false
-      id: r1
-
 ---
 spring:
   profiles: docker
@@ -35,5 +45,3 @@ spring:
       userInfoUri: http://authorization-server:8090/user
       tokenInfoUri: http://authorization-server:8090/oauth/check_token
       preferTokenInfo: false
-      id: r1
-
