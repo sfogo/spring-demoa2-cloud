@@ -5,3 +5,9 @@ info:
 management:
   context-path: /actuate
 
+endpoints:
+  cors:
+    allowedOrigins: '*'
+    allowedMethods: POST, GET, OPTIONS, DELETE
+    maxAge: 3600
+    allowedHeaders: x-requested-with, authorization
