@@ -24,7 +24,8 @@ spring:
     resource:
       userInfoUri: http://localhost:8090/user
       tokenInfoUri: http://localhost:8090/oauth/check_token
-      preferTokenInfo: true
+      preferTokenInfo: false
+      id: r1
 
 ---
 spring:
@@ -33,5 +34,6 @@ spring:
     resource:
       userInfoUri: http://authorization-server:8090/user
       tokenInfoUri: http://authorization-server:8090/oauth/check_token
-      preferTokenInfo: true
+      preferTokenInfo: false
+      id: r1
 
