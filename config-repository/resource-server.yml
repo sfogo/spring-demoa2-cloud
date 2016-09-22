@@ -1,0 +1,35 @@
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG
+        security: DEBUG
+
+server:
+  port: 8091
+  error:
+    whitelabel:
+      enabled: false
+
+  use-forward-headers: true
+  tomcat:
+    port-header: x-forwarded-port
+    remote_ip_header: x-forwarded-for
+    protocol_header: x-forwarded-proto
+
+---
+spring:
+  profiles: dev
+  oauth2:
+    resource:
+      userInfoUri: http://localhost:8090/user
+      preferTokenInfo: false
+
+---
+spring:
+  profiles: docker
+  oauth2:
+    resource:
+      userInfoUri: http://authorization-server:8090/user
+      preferTokenInfo: false
+
